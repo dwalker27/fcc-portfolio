@@ -1,0 +1,36 @@
+body {
+    font-family: monospace;
+    background: linear-gradient(30deg, #000, #800);
+    color: white;
+  }
+  
+  #title {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  #img-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  #image {
+    width: 50vw;
+    max-width: 500px;
+  }
+  
+  #img-caption {
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+  }
+  
+  a {
+    text-decoration: none;
+    color: yellow;
+    font-weight: bold;
+  }
