@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FCC: Survey Form - Political Survey</title>
+        <link href="main.css" rel="stylesheet" type="text/css">
+    </head>
+<body>
+<div id="wrap">
+<h1 id="title">Political Survey Form</h1>
+<p id="description">Please fill out all the information if you can. Thank you.</p>
+<form id="survey-form">
+  <label for="name" id="name-label">Name: </label>
+  <input type="text" id="name" name="name" placeholder="Enter name" required /><p>
+  <label for="email" id="email-label">E-mail: </label>
+  <input type="email" id="email" name="email" placeholder="Enter name" required /><p>
+  <label for="age" id="number-label">Age: </label>
+  <input type="number" id="number" name="number" placeholder="Age" min="18" max="120" required /><p>
+  <label for="dropdown">Party:</label>
+  <select id="dropdown">
+    <option value="-">--</option>
+    <option value="D">Democrat</option>
+    <option value="R">Republican</option>
+    <option value="I">Independent</option>
+    <option value="L">Libertarian</option>
+    <option value="G">Green</option>
+    <option value="O">Other</option>
+  </select><p>
+  
+  Ideology:
+  <label for="liberal">
+    <input type="radio" name="ideology" value="Liberal" />Liberal</label>
+  <label for="moderate">
+    <input type="radio" name="ideology" value="Moderate" />Moderate</label>
+  <label for="conservative">
+    <input type="radio" name="ideology" value="Conservative" />Conservative</label><p>
+  
+  What type of candidate would you consider voting for?
+  <label for="liberal-v">
+    <input type="checkbox" name="vote" value="Liberal" />Liberal</label>
+  <label for="moderate-v">
+    <input type="checkbox" name="vote" value="Moderate" />Moderate</label>
+  <label for="conservative-v">
+    <input type="checkbox" name="vote" value="Conservative" />Conservative</label><p>
+  
+  Comments:<p>
+  <textarea id="comments" rows=10 cols=90>
+  </textarea><p>
+  <input type="submit" id="submit" value="Submit" /><p>
+</form>
+</div>
+</body>
+</html>
