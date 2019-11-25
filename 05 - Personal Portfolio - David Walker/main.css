@@ -1,0 +1,102 @@
+body, html {
+    margin: 0px;
+    font-family: Helvetica;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+  }
+  
+  #navbar {
+    position: fixed;
+    display: flex;
+    height: 40px;
+    background-color: #600000;
+    width: 100vw;
+    align-items: center;
+    z-index: 1;
+  }
+  
+  #welcome-section {
+    background-color: gray;
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  #title {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  #subtitle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  
+  #welcome-section h1 {
+    
+  }
+  
+  @media (max-height: 300px)
+  {
+    #welcome-section {
+      height: 300px;
+    }
+    #projects {
+      height: 300px;
+    }
+  }
+  
+  #projects {
+    background-color: #000060;
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  
+  #project-tiles {
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .project-tile {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  img {
+    width: 30vw;
+    height: 30vh;
+  }
+
+  .tile-bottom {
+      background-color: #606060;
+      font-weight: bold;
+      width: 30vw;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0px 10px 0px;
+      margin: 0px;
+  }

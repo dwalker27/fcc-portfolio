@@ -1,0 +1,47 @@
+#tech {
+    font-family: Verdana;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #main-doc {
+    padding-left: 30px;
+  }
+  
+  header {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  code {
+    display: flex;
+    background-color: #f5f5dc;
+    height: 100px;
+    width: 300px;
+    align-items: center;
+  }
+  
+  section {
+    padding-bottom: 50px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: red;
+  }
+  
+  #nav-title {
+    padding-bottom: 20px;
+  }
+  
+  @media (max-width: 500px) {
+    #tech {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
